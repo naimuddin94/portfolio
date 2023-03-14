@@ -1,13 +1,23 @@
-import Navber from "./component/Navber";
-import Section from "./component/Section";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import "./style/Global.css";
+import Layout from "./component/Layout";
+import Skills from "./pages/Skills";
 
 function App() {
   return (
-    <div className="App">
-      <Navber />
-      <Section />
-    </div>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/skills" element={<Skills />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
 

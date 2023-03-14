@@ -1,0 +1,55 @@
+.main {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+.main h2 {
+  text-align: center;
+  border: 1px solid gray;
+  opacity: 0.7;
+}
+
+.main h4 {
+  opacity: 0.7;
+  color: rgb(20, 4, 35);
+}
+
+.main ul {
+  background: none;
+}
+
+.main ul li {
+  list-style: none;
+  color: #000000;
+  border-bottom: 1px solid gray;
+}
+
+.main ul li:nth-of-type(1) {
+  border-top: 1px solid gray;
+}
+
+.firstContent {
+  border: 2px solid #0e7a82;
+  height: 80vh;
+  padding: 2rem;
+}
+
+.secoundContent {
+  border: 2px solid #0e7a82;
+  height: 80vh;
+  padding: 2rem;
+  margin-left: 1rem;
+}
+
+.thirdContent {
+  border: 2px solid #0e7a82;
+  height: 80vh;
+  padding: 2rem;
+  margin-left: 1rem;
+}
+
+.img {
+  width: 100%;
+  height: 40%;
+}
