@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+:root {
+  --mainColor: #0296a1;
+}
+
 body {
   background: #edeff2;
 }

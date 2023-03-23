@@ -1,5 +1,4 @@
 .main {
-  overflow: hidden;
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
 }
@@ -30,23 +29,29 @@
 }
 
 .firstContent {
-  border: 2px solid #0e7a82;
   height: 80vh;
   padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .secoundContent {
-  border: 2px solid #0e7a82;
   height: 80vh;
   padding: 2rem;
   margin-left: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .thirdContent {
-  border: 2px solid #0e7a82;
   height: 80vh;
   padding: 2rem;
   margin-left: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .img {
